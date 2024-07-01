@@ -32,13 +32,31 @@ function SharedLayout() {
             className="flex items-center gap-2 text-lg font-semibold md:text-base"
           >
             <Package2 className="h-6 w-6" />
-            <span className="sr-only">Acme Inc</span>
+            <span className="sr-only">Flamingo World</span>
           </a>
           <a
             href="#"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             Home
+          </a>
+          <a
+            href="#about"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            About
+          </a>
+          <a
+            href="#gallery"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Gallery
+          </a>
+          <a
+            href="#contact"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Contact
           </a>
         </nav>
         <Sheet>
@@ -59,13 +77,31 @@ function SharedLayout() {
                 className="flex items-center gap-2 text-lg font-semibold"
               >
                 <Package2 className="h-6 w-6" />
-                <span className="sr-only">Acme Inc</span>
+                <span className="sr-only">Flamingo World</span>
               </a>
               <a
                 href="#"
                 className="text-muted-foreground hover:text-foreground"
               >
                 Home
+              </a>
+              <a
+                href="#about"
+                className="text-muted-foreground hover:text-foreground"
+              >
+                About
+              </a>
+              <a
+                href="#gallery"
+                className="text-muted-foreground hover:text-foreground"
+              >
+                Gallery
+              </a>
+              <a
+                href="#contact"
+                className="text-muted-foreground hover:text-foreground"
+              >
+                Contact
               </a>
             </nav>
           </SheetContent>
